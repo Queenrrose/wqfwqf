@@ -1,0 +1,84 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGBUS (0x7) at pc=0x00007f5decd5327e, pid=108, tid=120
+#
+# JRE version: OpenJDK Runtime Environment Zulu16.28+11-CA (16.0+36) (build 16+36)
+# Java VM: OpenJDK 64-Bit Server VM Zulu16.28+11-CA (16+36, mixed mode, sharing, tiered, compressed oops, serial gc, linux-amd64)
+# Problematic frame:
+# V  [libjvm.so+0xc9e27e]  PerfLongVariant::sample()+0x1e
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport -p%p -s%s -c%c -d%d -P%P -u%u -g%g -- %E" (or dumping to /home/runner/LavaLink-with-Replit/core.108)
+#
+# If you would like to submit a bug report, please visit:
+#   http://www.azulsystems.com/support/
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: Lavalink.jar
+
+Host: AMD EPYC 7B12, 8 cores, 1G, Ubuntu 18.04.5 LTS
+Time: Fri May 12 18:50:42 2023 UTC elapsed time: 3143.700440 seconds (0d 0h 52m 23s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f5de40d0540):  WatcherThread [stack: 0x00007f5de951b000,0x00007f5de961b000] [id=120]
+
+Stack: [0x00007f5de951b000,0x00007f5de961b000],  sp=0x00007f5de9619d50,  free space=1019k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xc9e27e]  PerfLongVariant::sample()+0x1e
+V  [libjvm.so+0xe246ed]  StatSamplerTask::task()+0x3d
+V  [libjvm.so+0xea635c]  PeriodicTask::real_time_tick(int)+0xac
+V  [libjvm.so+0xee707d]  WatcherThread::run()+0x3d
+V  [libjvm.so+0xeec4df]  Thread::call_run()+0xff
+V  [libjvm.so+0xc58a77]  thread_native_entry(Thread*)+0xe7
+
+
+siginfo: si_signo: 7 (SIGBUS), si_code: 2 (BUS_ADRERR), si_addr: 0x00007f5dee5177a8
+
+Register to memory mapping:
+
+RAX=0x00000000001fa788 is an unknown value
+RBX=0x00007f5dee5177a8 points into unknown readable memory: 0x00000000001fa788 | 88 a7 1f 00 00 00 00 00
+RCX=0x0000000000000002 is an unknown value
+RDX=0x00007f5dec5dc950: <offset 0x0000000000527950> in /home/runner/.jabba/jdk/zulu@1.16.0/lib/server/libjvm.so at 0x00007f5dec0b5000
+RSP=0x00007f5de9619d50 points into unknown readable memory: 0x00007f5dee504a80 | 80 4a 50 ee 5d 7f 00 00
+RBP=0x00007f5de9619d60 points into unknown readable memory: 0x00007f5de9619d90 | 90 9d 61 e9 5d 7f 00 00
+RSI=0x0 is NULL
+RDI=0x00007f5de403b9c0 points into unknown readable memory: 0x00007f5ded58b7e0 | e0 b7 58 ed 5d 7f 00 00
+R8 =0x00007f5de401ffc8 points into unknown readable memory: 0x0000000000000001 | 01 00 00 00 00 00 00 00
+R9 =0x0000000000000032 is an unknown value
+R10=0x0 is NULL
+R11=0x0000000000000206 is an unknown value
+R12=0x0000000000000008 is an unknown value
+R13=0x00007f5de40d0460 points into unknown readable memory: 0x00007f5de40d0480 | 80 04 0d e4 5d 7f 00 00
+R14=0x0000000000000002 is an unknown value
+R15=0x0000000000000001 is an unknown value
+
+
+Registers:
+RAX=0x00000000001fa788, RBX=0x00007f5dee5177a8, RCX=0x0000000000000002, RDX=0x00007f5dec5dc950
+RSP=0x00007f5de9619d50, RBP=0x00007f5de9619d60, RSI=0x0000000000000000, RDI=0x00007f5de403b9c0
+R8 =0x00007f5de401ffc8, R9 =0x0000000000000032, R10=0x0000000000000000, R11=0x0000000000000206
+R12=0x0000000000000008, R13=0x00007f5de40d0460, R14=0x0000000000000002, R15=0x0000000000000001
+RIP=0x00007f5decd5327e, EFLAGS=0x0000000000010206, CSGSFS=0x002b000000000033, ERR=0x0000000000000007
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007f5de9619d50)
+0x00007f5de9619d50:   00007f5dee504a80 0000000000000001
+0x00007f5de9619d60:   00007f5de9619d90 00007f5deced96ed
+0x00007f5de9619d70:   00007f5de9619d90 0000000000000033
+0x00007f5de9619d80:   00007f5ded69a5e0 0000000000000001 
+
+Instructions: (pc=0x00007f5decd5327e)
+0x00007f5decd5317e:   10 49 8b 54 24 08 48 89 42 10 49 8b 44 24 08 49
+0x00007f5decd5318e:   8b 54 24 18 48 89 50 18 49 8b 44 24 08 49 8b 54
+0x00007f5decd5319e:   24 20 48 89 50 20 c7 83 80 03 00 00 07 00 00 00
+0x00007f5decd531ae:   f0 83 04 24 00 48 8b 83 18 01 00 00 a8 01 74 08
+0x00007f5decd531be:   48 89 df e8 7a 6c 07 00 c7 83 80 03 00 00 04 00
+0x00007f5decd531ce:   00 00 5b 41 5c 41 5d 41 5e 5d c3 0f 1f 80 00 00
+0x00007f5decd531de:   00 00 8b 83 e8 00 00 00 a8 04 0f 85 c9 fe ff ff
+0x00007f5decd531ee:   8b 83 e8 00 00 00 a8 08 0f 85 bb fe ff ff e9 c0
+0x00007f5decd531fe:   fe ff ff 0f 1f 80 00 00 00 00 48 89 df e8 30 6c
+0x00007f5decd5320e:   07 00 e9 7d fe ff ff 0f 1f 00 48 89 df

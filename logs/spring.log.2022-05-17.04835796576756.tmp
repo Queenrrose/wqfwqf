@@ -1,0 +1,202 @@
+2022-05-17 00:08:38.096 ERROR 115 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:59792
+2022-05-17 00:24:23.432  INFO 115 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-05-17 00:24:23.753  INFO 115 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on ac2eb219967f with PID 115 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-05-17 00:24:23.754  INFO 115 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-05-17 00:24:24.130  WARN 115 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-05-17 00:24:28.402  WARN 115 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-17 00:24:28.462  INFO 115 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-17 00:24:28.463  INFO 115 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4447 ms
+2022-05-17 00:24:28.739  INFO 115 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-05-17 00:24:29.146  INFO 115 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-05-17 00:24:29.215  WARN 115 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-05-17 00:24:29.763  INFO 115 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-05-17 00:24:29.764  INFO 115 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-05-17 00:24:29.769  INFO 115 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-05-17 00:24:29.774  INFO 115 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-05-17 00:24:29.781  INFO 115 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-05-17 00:24:29.801  INFO 115 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-05-17 00:24:29.836  INFO 115 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-05-17 00:24:29.853  INFO 115 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-05-17 00:24:29.859  INFO 115 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-05-17 00:24:29.868  INFO 115 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-05-17 00:24:29.869  INFO 115 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-05-17 00:24:30.553  INFO 115 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-05-17 00:24:30.567  INFO 115 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-05-17 00:24:30.583  INFO 115 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-05-17 00:24:30.715  INFO 115 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-05-17 00:24:30.824  INFO 115 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-05-17 00:24:30.850  INFO 115 --- [main] lavalink.server.Launcher                 : Started Launcher in 9.168 seconds (JVM running for 10.9)
+2022-05-17 00:24:30.852  INFO 115 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-05-17 00:24:30.855  INFO 115 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-05-17 00:38:58.250  INFO 115 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 00:38:58.251  INFO 115 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 00:38:58.252  INFO 115 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 00:38:58.328 ERROR 115 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39948
+2022-05-17 07:02:39.848  INFO 116 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-05-17 07:02:40.038  INFO 116 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on 16445948cfb7 with PID 116 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-05-17 07:02:40.039  INFO 116 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-05-17 07:02:40.231  WARN 116 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-05-17 07:02:42.862  WARN 116 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-17 07:02:42.926  INFO 116 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-17 07:02:42.927  INFO 116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2707 ms
+2022-05-17 07:02:43.153  INFO 116 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-05-17 07:02:43.617  INFO 116 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-05-17 07:02:43.704  WARN 116 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-05-17 07:02:44.206  INFO 116 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-05-17 07:02:44.207  INFO 116 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-05-17 07:02:44.213  INFO 116 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-05-17 07:02:44.219  INFO 116 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-05-17 07:02:44.225  INFO 116 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-05-17 07:02:44.227  INFO 116 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-05-17 07:02:44.245  INFO 116 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-05-17 07:02:44.270  INFO 116 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-05-17 07:02:44.277  INFO 116 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-05-17 07:02:44.284  INFO 116 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-05-17 07:02:44.285  INFO 116 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-05-17 07:02:45.128  INFO 116 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-05-17 07:02:45.139  INFO 116 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-05-17 07:02:45.151  INFO 116 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-05-17 07:02:45.232  INFO 116 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-05-17 07:02:45.285  INFO 116 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-05-17 07:02:45.306  INFO 116 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.377 seconds (JVM running for 7.353)
+2022-05-17 07:02:45.307  INFO 116 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-05-17 07:02:45.311  INFO 116 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-05-17 07:17:18.162  INFO 116 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 07:17:18.162  INFO 116 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 07:17:18.164  INFO 116 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-17 07:17:18.207 ERROR 116 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:58240
+2022-05-17 22:37:54.365  INFO 114 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-05-17 22:37:54.847  INFO 114 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on 3de6d2d7b689 with PID 114 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-05-17 22:37:54.848  INFO 114 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-05-17 22:37:55.511  WARN 114 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-05-17 22:38:01.343  WARN 114 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-17 22:38:01.449  INFO 114 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-17 22:38:01.450  INFO 114 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6195 ms
+2022-05-17 22:38:01.748  INFO 114 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-05-17 22:38:02.558  INFO 114 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-05-17 22:38:02.655  WARN 114 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-05-17 22:38:03.756  INFO 114 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-05-17 22:38:03.758  INFO 114 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-05-17 22:38:03.770  INFO 114 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-05-17 22:38:03.783  INFO 114 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-05-17 22:38:03.791  INFO 114 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-05-17 22:38:03.897  INFO 114 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-05-17 22:38:03.949  INFO 114 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-05-17 22:38:04.006  INFO 114 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-05-17 22:38:04.013  INFO 114 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-05-17 22:38:04.028  INFO 114 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-05-17 22:38:04.029  INFO 114 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-05-17 22:38:06.364  INFO 114 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-05-17 22:38:06.431  INFO 114 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-05-17 22:38:06.460  INFO 114 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-05-17 22:38:06.655  INFO 114 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-05-17 22:38:06.969  INFO 114 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-05-17 22:38:07.096  INFO 114 --- [main] lavalink.server.Launcher                 : Started Launcher in 15.332 seconds (JVM running for 18.173)
+2022-05-17 22:38:07.103  INFO 114 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-05-17 22:38:07.115  INFO 114 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-05-17 22:52:18.157  INFO 114 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 22:52:18.158  INFO 114 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 22:52:18.163  INFO 114 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-05-17 22:52:18.202 ERROR 114 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37794
+2022-05-17 23:38:36.546  INFO 118 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-05-17 23:38:36.653  INFO 118 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on 656fb3dc646a with PID 118 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-05-17 23:38:36.654  INFO 118 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-05-17 23:38:36.808  WARN 118 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-05-17 23:38:38.415  WARN 118 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-05-17 23:38:38.444  INFO 118 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-05-17 23:38:38.444  INFO 118 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1711 ms
+2022-05-17 23:38:38.564  INFO 118 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-05-17 23:38:38.845  INFO 118 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-05-17 23:38:38.897  WARN 118 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-05-17 23:38:39.132  INFO 118 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-05-17 23:38:39.133  INFO 118 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-05-17 23:38:39.137  INFO 118 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-05-17 23:38:39.141  INFO 118 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-05-17 23:38:39.144  INFO 118 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-05-17 23:38:39.166  INFO 118 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-05-17 23:38:39.177  INFO 118 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-05-17 23:38:39.190  INFO 118 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-05-17 23:38:39.192  INFO 118 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-05-17 23:38:39.197  INFO 118 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-05-17 23:38:39.198  INFO 118 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-05-17 23:38:39.722  INFO 118 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-05-17 23:38:39.734  INFO 118 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-05-17 23:38:39.746  INFO 118 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-05-17 23:38:39.839  INFO 118 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-05-17 23:38:39.915  INFO 118 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-05-17 23:38:39.934  INFO 118 --- [main] lavalink.server.Launcher                 : Started Launcher in 3.98 seconds (JVM running for 4.688)
+2022-05-17 23:38:39.936  INFO 118 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-05-17 23:38:39.938  INFO 118 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-05-17 23:53:18.167  INFO 118 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-17 23:53:18.168  INFO 118 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-17 23:53:18.169  INFO 118 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-17 23:53:18.194 ERROR 118 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:52990
+2022-05-17 23:53:38.291 ERROR 118 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:60156

@@ -1,0 +1,210 @@
+2022-04-23 00:10:51.159 ERROR 114 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:46392
+2022-04-23 00:14:40.424  INFO 117 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-04-23 00:14:40.585  INFO 117 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on f937254efc98 with PID 117 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-04-23 00:14:40.586  INFO 117 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-04-23 00:14:40.867  WARN 117 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-04-23 00:14:43.093  WARN 117 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-04-23 00:14:43.129  INFO 117 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-04-23 00:14:43.130  INFO 117 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2377 ms
+2022-04-23 00:14:43.311  INFO 117 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-04-23 00:14:43.656  INFO 117 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-04-23 00:14:43.732  WARN 117 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-04-23 00:14:44.077  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-04-23 00:14:44.077  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-04-23 00:14:44.083  INFO 117 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-04-23 00:14:44.088  INFO 117 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-04-23 00:14:44.092  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-04-23 00:14:44.093  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-04-23 00:14:44.106  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-04-23 00:14:44.130  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-04-23 00:14:44.135  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-04-23 00:14:44.142  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-04-23 00:14:44.143  INFO 117 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-04-23 00:14:44.745  INFO 117 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-04-23 00:14:44.756  INFO 117 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-04-23 00:14:44.768  INFO 117 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-04-23 00:14:44.862  INFO 117 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-04-23 00:14:44.937  INFO 117 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-04-23 00:14:44.961  INFO 117 --- [main] lavalink.server.Launcher                 : Started Launcher in 5.414 seconds (JVM running for 6.431)
+2022-04-23 00:14:44.963  INFO 117 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-04-23 00:14:44.965  INFO 117 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-04-23 00:26:11.222  INFO 117 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-23 00:26:11.223  INFO 117 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-23 00:26:11.225  INFO 117 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-23 00:26:11.253 ERROR 117 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40108
+2022-04-23 09:35:54.492  INFO 117 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-04-23 09:35:54.718  INFO 117 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on 39aaeea9bc32 with PID 117 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-04-23 09:35:54.720  INFO 117 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-04-23 09:35:55.152  WARN 117 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-04-23 09:35:58.462  WARN 117 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-04-23 09:35:58.530  INFO 117 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-04-23 09:35:58.531  INFO 117 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3573 ms
+2022-04-23 09:35:58.890  INFO 117 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-04-23 09:35:59.442  INFO 117 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-04-23 09:35:59.564  WARN 117 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-04-23 09:36:00.219  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-04-23 09:36:00.223  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-04-23 09:36:00.231  INFO 117 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-04-23 09:36:00.243  INFO 117 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-04-23 09:36:00.250  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-04-23 09:36:00.261  INFO 117 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-04-23 09:36:00.280  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-04-23 09:36:00.324  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-04-23 09:36:00.332  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-04-23 09:36:00.346  INFO 117 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-04-23 09:36:00.347  INFO 117 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-04-23 09:36:01.295  INFO 117 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-04-23 09:36:01.343  INFO 117 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-04-23 09:36:01.390  INFO 117 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-04-23 09:36:01.541  INFO 117 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-04-23 09:36:01.642  INFO 117 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-04-23 09:36:01.677  INFO 117 --- [main] lavalink.server.Launcher                 : Started Launcher in 8.53 seconds (JVM running for 10.248)
+2022-04-23 09:36:01.680  INFO 117 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-04-23 09:36:01.683  INFO 117 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-04-23 16:00:21.355  INFO 113 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5f76fd37dd29f9ada64d8b78475a367e5e52b71d-SNAPSHOT
+	Build:          Unofficial
+	Build time:     05.11.2021 22:07:41 UTC
+	Branch          dev
+	Commit:         5f76fd3
+	Commit time:    05.11.2021 22:07:23 UTC
+	JVM:            16
+	Lavaplayer      1.3.96-original
+
+2022-04-23 16:00:22.140  INFO 113 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 16 on ccdb202aab1c with PID 113 (/home/runner/LavaLink-with-Replit/Lavalink.jar started by runner in /home/runner/LavaLink-with-Replit)
+2022-04-23 16:00:22.145  INFO 113 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2022-04-23 16:00:23.203  WARN 113 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2022-04-23 16:00:30.727  WARN 113 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2022-04-23 16:00:30.805  INFO 113 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2022-04-23 16:00:30.806  INFO 113 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8075 ms
+2022-04-23 16:00:31.081  INFO 113 --- [main] l.server.metrics.PrometheusMetrics       : Prometheus metrics set up
+2022-04-23 16:00:31.985  INFO 113 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2022-04-23 16:00:32.200  WARN 113 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2022-04-23 16:00:32.735  INFO 113 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2022-04-23 16:00:32.736  INFO 113 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2022-04-23 16:00:32.787  INFO 113 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2022-04-23 16:00:32.809  INFO 113 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2022-04-23 16:00:32.827  INFO 113 --- [main] lavalink.server.config.KoeConfiguration  : Using Epoll Transport.
+2022-04-23 16:00:32.829  INFO 113 --- [main] lavalink.server.config.KoeConfiguration  : Using the 'default' byte buf allocator
+2022-04-23 16:00:32.854  INFO 113 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2022-04-23 16:00:32.912  INFO 113 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2022-04-23 16:00:32.919  INFO 113 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2022-04-23 16:00:32.934  INFO 113 --- [main] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2022-04-23 16:00:32.936  INFO 113 --- [main] lavalink.server.io.SocketServer          : Timescale natives loaded successfully.
+2022-04-23 16:00:34.354  INFO 113 --- [main] io.undertow                              : starting server: Undertow - 2.2.7.Final
+2022-04-23 16:00:34.379  INFO 113 --- [main] org.xnio                                 : XNIO version 3.8.0.Final
+2022-04-23 16:00:34.398  INFO 113 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.0.Final
+2022-04-23 16:00:34.666  INFO 113 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2022-04-23 16:00:34.801  INFO 113 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 443 (http)
+2022-04-23 16:00:34.858  INFO 113 --- [main] lavalink.server.Launcher                 : Started Launcher in 16.565 seconds (JVM running for 19.492)
+2022-04-23 16:00:34.865  INFO 113 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-04-23 16:00:34.873  INFO 113 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-04-23 16:01:31.202  INFO 113 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-23 16:01:31.203  INFO 113 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-23 16:01:31.204  INFO 113 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-23 16:01:31.235 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37060
+2022-04-23 16:01:51.409 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:60616
+2022-04-23 16:16:51.049 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:60730
+2022-04-23 16:17:11.185 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:34722
+2022-04-23 16:32:11.120 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:36610
+2022-04-23 16:32:31.328 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:35006
+2022-04-23 16:47:31.252 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:57058
+2022-04-23 16:47:51.359 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:36716
+2022-04-23 17:02:51.124 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38108
+2022-04-23 17:03:11.365 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:36992
+2022-04-23 17:18:11.211 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:53874
+2022-04-23 17:18:31.358 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39378
+2022-04-23 17:33:31.189 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:36006
+2022-04-23 17:33:51.357 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:57402
+2022-04-23 17:48:51.134 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37772
+2022-04-23 17:49:11.315 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39476
+2022-04-23 18:04:11.212 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37536
+2022-04-23 18:04:31.362 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38286
+2022-04-23 18:19:31.142 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:36782
+2022-04-23 18:19:51.261 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38308
+2022-04-23 18:34:51.113 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:59590
+2022-04-23 18:35:11.313 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:59764
+2022-04-23 18:50:11.174 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:57932
+2022-04-23 18:50:31.292 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:57934
+2022-04-23 19:05:31.163 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37570
+2022-04-23 19:05:51.347 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38722
+2022-04-23 19:20:51.136 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39044
+2022-04-23 19:21:11.265 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37818
+2022-04-23 19:36:11.135 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:58330
+2022-04-23 19:36:31.338 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38278
+2022-04-23 19:51:31.189 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:41990
+2022-04-23 19:51:51.304 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:58442
+2022-04-23 20:06:51.159 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:33982
+2022-04-23 20:07:11.320 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:58584
+2022-04-23 20:22:11.187 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38588
+2022-04-23 20:22:31.319 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39734
+2022-04-23 20:37:31.256 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39924
+2022-04-23 20:37:51.420 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:34174
+2022-04-23 20:52:51.138 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40074
+2022-04-23 20:53:11.286 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39286
+2022-04-23 21:08:11.231 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:42100
+2022-04-23 21:08:31.412 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40220
+2022-04-23 21:23:36.707 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:43266
+2022-04-23 21:23:57.778 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40396
+2022-04-23 21:38:57.127 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:42552
+2022-04-23 21:39:17.539 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40432
+2022-04-23 21:54:17.297 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:59460
+2022-04-23 21:54:37.612 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:39402
+2022-04-23 22:09:37.307 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:42956
+2022-04-23 22:09:57.572 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:42970
+2022-04-23 22:24:57.306 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:37892
+2022-04-23 22:25:17.509 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:59698
+2022-04-23 22:40:17.052 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40008
+2022-04-23 22:40:37.467 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:41226
+2022-04-23 22:55:37.216 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38128
+2022-04-23 22:55:57.567 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:34842
+2022-04-23 23:10:57.303 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38238
+2022-04-23 23:11:17.488 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:41572
+2022-04-23 23:26:17.336 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:41632
+2022-04-23 23:26:37.520 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:38308
+2022-04-23 23:41:37.421 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:40438
+2022-04-23 23:41:57.765 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:46044
+2022-04-23 23:56:57.256 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:44628
+2022-04-23 23:57:17.545 ERROR 113 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Authentication failed from /172.18.0.1:44642
